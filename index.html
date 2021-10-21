@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <style>
+        @font-face {
+            font-family: monto;
+            src: url(./b.ttf);
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .time {
+            font-family: monto;
+            color: white;
+            text-align: center;
+            /* background-color: aqua; */
+            /* border: 2px solid red; */
+            font-size: 500px;
+            letter-spacing: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="time">
+        <a href="https://time.is/Mathura" id="time_is_link"></a>
+        <span id="Mathura_z424"></span>
+        <script src="//widget.time.is/t.js"></script>
+        <script>
+            time_is_widget.init({ Mathura_z424: {} });
+        </script>
+    </div>
+</body>
+
+</html>
